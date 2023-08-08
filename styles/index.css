@@ -32,6 +32,13 @@ body {
     position: relative;
 }
 
+.barraC {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0 2vh 0 2vh;
+}
+
 .ver-carrito {
     color: #fff;
     display: block;
@@ -298,7 +305,7 @@ body {
 
 .tarjeta .delantera {
     width: 99%;
-    background: linear-gradient(to right, #43c6ac, #191654);
+    background: linear-gradient(to right, #ff4d00, #ff831e);
     ;
     background-size: cover;
 }
@@ -343,7 +350,7 @@ body {
 
 /* ---------- Tarjeta Trasera ----------*/
 .trasera {
-    background: linear-gradient(to right, #43c6ac, #191654);
+    background: linear-gradient(to left, #ff4d00, #ff831e);
     ;
     background-size: cover;
     position: absolute;
@@ -615,8 +622,6 @@ body {
         background-color: #555;
     }
 
-
-
     .container-prod {
         display: flex;
         flex-direction: column;
@@ -852,54 +857,8 @@ body {
     .formulario-tarjeta select {
         font-size: 15px;
     }
-
-    /* .tarjeta .delantera {
-        width: 99%;
-        background: linear-gradient(to right, #43c6ac, #191654);
-        ;
-        background-size: cover;
-    }
-
-    .delantera .logo-marca {
-        text-align: right;
-        min-height: 50px;
-    }
-
-    .delantera .logo-marca img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        max-width: 80px;
-    }
-
-    .delantera .chip {
-        width: 100%;
-        max-width: 50px;
-    }
-
-    .delantera .grupo .label {
-        font-size: 16px;
-        color: #686868;
-        margin-bottom: 5px;
-    }
-
-    .delantera .grupo .numero,
-    .delantera .grupo .nombre,
-    .delantera .grupo .expiracion {
-        color: #fff;
-        font-size: 22px;
-        text-transform: uppercase;
-    }
-
-    .delantera .flexbox {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-    } */
-
 }
 
-/* Estilos de la Sección "Sobre Nosotros" */
 #about-section {
     background-color: #fff;
     padding: 60px;
